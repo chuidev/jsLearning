@@ -121,8 +121,8 @@ function func(text) {
   if ( text.length > 5) {
     console.log(text.slice(0, 5) + '...');
   } else {
-    console.log('длина строки меньше 50 символов');
+    console.log('длина строки меньше 5 символов');
   }
 };
 
-func(' 123 123 ');
+func(' 1 ');
